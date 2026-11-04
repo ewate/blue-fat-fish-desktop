@@ -13,3 +13,9 @@ private-assets/
 *.wav
 artifacts/
 *.avi
+
+# Private video production files
+video/
+video1080/
+previews/
+*.srt

@@ -6,17 +6,16 @@
 
 ## 发布下一版
 
-1. 修改 VERSION（例如 0.1.1）并在 CHANGELOG.md 记录本版变化。
+1. 修改 VERSION（例如 0.1.2）并在 CHANGELOG.md 记录本版变化。
 2. 运行测试并合并到 main，确认 Checks 工作流通过。
 3. 执行：
 
 ```powershell
 git switch main
 git pull --ff-only
-git tag -a v0.1.1 -m "Release 0.1.1"
-git push origin v0.1.1
+git tag -a v0.1.2 -m "Release 0.1.2"
+git push origin v0.1.2
 ```
 
 Release 工作流验证标签与 VERSION 一致，运行测试，再发布源码运行包及校验文件。
-不要重写已发布的版本标签。小修复增加补丁号（0.1.1），新增功能可用 0.2.0；不兼容变更需在更新记录中明确说明。
-视频可在本地用 `python tools/render_demo.py --ffmpeg <ffmpeg完整路径>` 重新生成，编码器需自行安装或使用已有版本。
+不要重写已发布的版本标签。小修复增加补丁号（0.1.2），新增功能可用 0.2.0；不兼容变更需在更新记录中明确说明。

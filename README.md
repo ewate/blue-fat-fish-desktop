@@ -7,7 +7,7 @@
 
 ![桌宠预览](docs/preview.jpg)
 
-**[下载最新源码运行包](https://github.com/ewate/blue-fat-fish-desktop/releases/latest)** · **[1080p 演示视频](https://github.com/ewate/blue-fat-fish-desktop/releases/download/v0.1.0/blue-fat-fish-demo-1080p.mp4)**
+**[下载最新源码运行包](https://github.com/ewate/blue-fat-fish-desktop/releases/latest)**
 
 ## 功能
 
@@ -53,8 +53,6 @@ python pet.py
 - 不将聊天上传到项目服务器，不读取或展示内部推理。
 - 本机数据库表名、安装位置可能随 Codex 升级变化；此适配并非稳定的官方接口承诺。
 - `settings.json`、`pet.log`、数据库和认证文件不应提交到仓库，已配置忽略规则。
-
-视频为动画及功能界面演示，消息与额度使用示例数据。
 
 ## 素材与许可证
 
