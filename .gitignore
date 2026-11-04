@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+settings.json
+pet.log
+*.sqlite*
+.env
+auth.json
+qa-*.json
+private-assets/
+*.mp4
+*.wav
+artifacts/
+*.avi
